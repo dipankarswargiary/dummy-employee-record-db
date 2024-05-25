@@ -1,0 +1,127 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+/* Used in delete button */
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    background-color: #f3f3f3;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* ----- Navbar ----- */
+
+.navbar {
+    background-color: #f1faee !important;
+}
+
+
+/* ----- Form design ----- */
+
+.index-form {
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.index-form input, select {
+    margin: 3px 0px;
+}
+
+.index-form select .empty-option {
+    background-color: #f3f3f3;
+    color: #a07777;
+}
+
+.index-form label {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.index-form-area {
+    background-color: azure;
+    border-radius: 10px;
+    padding: 50px;
+    padding-bottom: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.a-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* Update form specific */
+
+.index-update-btn {
+    text-decoration: none;
+}
+
+
+/* ----- Table design ----- */
+
+.index-table {
+    width: 100%;
+    background-color: #fff;
+    padding: 60px 0px;
+    border-radius: 10px;
+}
+
+.sl-no-col {
+    width: 10%;
+}
+
+.emp-count {
+    width: 30%;
+}
+
+/* Alert message for empty dataset */
+.alert-message {
+    background-color: #fbe89e;
+    color: #fc3d2f;
+    border: 1px solid #faaf2d;
+    text-align: center;
+    border-radius: 8px; 
+    padding: 10px;
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.delete-emp-btn {
+    border: none;
+    background-color: inherit;
+    color: #ef233c;
+    font-weight: 500;
+}
+
+.delete-emp-btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.delete-emp-btn:active {
+    color: #8ecae6;
+}
+
+.selected-cell {
+    background-color: #A2D2FF !important;
+}
