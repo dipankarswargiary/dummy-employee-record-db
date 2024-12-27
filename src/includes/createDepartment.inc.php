@@ -3,6 +3,8 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $deptName = trim($_POST["deptName"]);
 
+    require_once "config.php";
+
     // Validating input data
     if (empty($deptName)) {
         session_start();

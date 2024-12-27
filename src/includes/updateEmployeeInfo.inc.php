@@ -9,6 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     try {
         require_once "dbh.inc.php";
+        require_once "config.php";
 
         session_start();
         if (!empty($id)) {

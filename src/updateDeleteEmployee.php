@@ -2,6 +2,7 @@
 
     // fetching necessary data from database
     require_once "includes/fetchDataForEmployeeTable.inc.php";
+    require_once "config.php";
 
     /**
      * Reference:
